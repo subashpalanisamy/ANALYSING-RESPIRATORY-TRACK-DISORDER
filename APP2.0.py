@@ -12,7 +12,7 @@ import IPython.display as ipd
 import librosa
 import librosa.display
 
-loaded_model = tf.saved_model.load('C:/Users/subas/Downloads/project - Jupyter Notebook_files/new model/my_lstm_model2')
+loaded_model = tf.saved_model.load('my_lstm_model2')
 
 st.title("RESPIRATORY TRACK DISORDER ")
 audio_file = st.file_uploader("Upload file", type=["mp3", "wav"])
